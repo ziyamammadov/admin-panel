@@ -1,0 +1,26 @@
+body{
+	background-color: #2f4050;
+}
+.col-sm-10{
+	background-color: #ffffff;
+}
+#Side_Menu a{
+	color: gold;
+}
+#Side_Menu .active a{
+	background-color: grey;
+	font-weight: bold;
+}
+#Side_Menu a:hover{
+
+	background-color: #999966;
+	font-weight: bold;
+	display: block;
+}
+#Footer{
+    
+    padding:10px;
+    color:#eeeeee;
+    background-color: #2f4050;
+    text-align: center;   
+}

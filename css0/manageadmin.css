@@ -1,0 +1,30 @@
+form{
+	background-color: #2f4050;
+	width: 83%;
+	float: left;
+}
+form input{
+	border-radius: 5px;
+	height: 30px;
+	font-size: 17px;
+	font-weight: bolder;
+}
+
+form h1{
+	color:gold;
+}
+form h2{
+	color:gold;
+}
+form h3{
+	color:gold;
+}
+.alert{
+	margin-top: 20px;
+}
+form *{
+	width: 80%;
+}
+input[type="submit"]{
+	margin-bottom: 20px;
+}

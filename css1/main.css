@@ -1,0 +1,251 @@
+*{
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/*Nav Menyu*/
+.nav{
+	position: fixed !important;
+	text-align: center;
+	top: 0 !important;
+	margin-top: 0 !important;
+	left: 0;
+	right: 0;
+	background-color: white !important;
+	z-index: 3;
+	height: 60px;
+}
+.navbar, .navbar-light, .navbar-expand-lg{
+	position: fixed !important;
+	z-index: 33;
+}
+.navbar ul{
+	position: fixed;
+	top: 0 !important;
+	left: 0;
+	text-align: center !important;
+	margin: 0 auto !important;
+	float: none !important;
+	background-color: white;
+	width: 100% !important;
+}
+.nav li{
+	text-align: center !important;
+	line-height: 20px !important;
+	vertical-align: middle;
+	margin: 0 7px;
+}
+/*nav li a menyunun size rengi*/
+.nav li a{
+	color: #00C851;
+	font-size: 22px;
+	padding: 0;
+}
+.abcparent{
+	float: left;
+	height: 60px;
+}
+.abc{
+ 	width: auto;
+ 	height: auto;
+ 	max-height: 50px;
+ 	float: left;
+ 	margin-top: 5px;
+}
+
+/*head classi, About Containeri*/
+.head{
+	background-color: #558B2F;
+	padding: 35px 0;
+	float: left;
+	margin-top: 45px;
+	background-image: url('../images/main/bgh.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.head p{
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 30px;
+	background-color: rgba(0,0,0,.4);
+	color: white !important;
+}
+h1{
+	text-align: center;
+	font-size: 35px;
+	color: green;
+}
+/* Gallery classi */ 
+.gallery{
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.size{
+	position: relative;
+	overflow: hidden;
+}
+.overlay {
+  position: absolute; 
+  margin-bottom: -150px;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0 ); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.size:hover .overlay {
+	bottom: 0;
+  	opacity: 0.6;
+  	margin-bottom: 0px;
+  	transition: 1s all;
+}
+
+/*gal classin icinde olan ul*/
+.gal ul{
+	list-style-type: none;
+}
+.gal{
+	overflow: hidden;
+}
+/*gal li > img */
+.gal li{
+	display: inline-block;
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	padding: 10px;
+}
+.gal img{
+	width: 260px;
+}
+
+/* FOOTER*/
+.footer ul{
+	list-style-type: none;
+	margin-top: 10px;
+	float: left;
+	padding: 0;
+}
+.footer ul a, .footer ul a:hover{
+	text-decoration: none;
+}
+.footer ul li{
+	float: left;
+	color: white;
+	font-size: 16px;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-right: 15px;
+
+}
+.footer ul .fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  transition: .5s;
+}
+.footer .fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+.footer .fa-facebook:hover {
+    opacity: 2;
+    background: #3B5998;
+    color: white;
+}
+.footer .fa-instagram {
+  background: white;
+  color: #125688;
+}
+.footer .fa-instagram:hover {
+    opacity: 2;
+    background: #125688;
+    color: white;
+}
+
+.footer .fa-youtube {
+  background: white;
+  color: #bb0000;
+}
+.footer .fa-youtube:hover {
+    opacity: 2;
+    background: #bb0000;
+    color: white;
+}
+.footer{
+  background-color: #336600;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer span{
+	display: block;
+	line-height: 50px;
+	font-size: 18px;
+	color: white;
+}
+.footer span i{
+	margin-right: 5px;
+}
+
+
+/* MOBILE CSS -------> */
+@media(max-width: 768px){
+
+.abcparent{
+	display: none;
+}
+.gal li{
+	width: 100%;
+	display: block;
+}
+.gal img{
+	width: 100%;
+}
+.nav, .navbar ul{
+	background-color: white;
+}
+.container, .gallery, .gal, .popup-gallery{
+	width: 100% !important;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+
+.row{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+/* gallery sekiller */
+.gallery{
+	padding-left: 15px !important;
+}
+/* about text*/
+.head{
+	text-align: justify;
+}
+/* FOOTER*/
+.footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer p span{
+	margin: 10px;
+	padding: 15px;
+}
+}
+

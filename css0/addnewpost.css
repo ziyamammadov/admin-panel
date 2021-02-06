@@ -1,0 +1,41 @@
+form{
+	background-color: #2f4050;
+	width:80%;
+	float: left;
+}
+form input{
+	border-radius: 5px;
+	height: 30px;
+	font-size: 17px;
+	font-weight: bolder;
+}
+form textarea{
+	border-radius: 5px;
+	height: 60px;
+	font-size: 17px;
+	font-weight: bolder;
+}
+form h1{
+	color:gold;
+}
+form h2{
+	color:gold;
+}
+form h3{
+	color:gold;
+}
+body h1{
+	color: gold;
+}
+.alert{
+	margin-top: 20px;
+}
+form  *{
+	width: 80%;
+}
+input[type="submit"]{
+	margin-bottom: 20px;
+}
+form textarea{
+	margin-bottom: 20px;
+}
